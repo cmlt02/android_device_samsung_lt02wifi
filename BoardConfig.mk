@@ -195,20 +195,6 @@ SENSORS_NEED_SETRATE_ON_ENABLE := true
 BOARD_SEPOLICY_DIRS += \
     device/samsung/lt02wifi/sepolicy
 
-BOARD_SEPOLICY_UNION += \
-    file_contexts \
-    device.te \
-    dhcp.te \
-    file.te \
-    init.te \
-    mediaserver.te \
-    netmgrd.te \
-    rild.te \
-    secril.te \
-    system.te \
-    ueventd.te \
-    wpa_supplicant.te
-
 #TWRP
 DEVICE_RESOLUTION := 1024x600
 RECOVERY_SDCARD_ON_DATA := true
