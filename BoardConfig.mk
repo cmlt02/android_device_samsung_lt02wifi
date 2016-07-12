@@ -75,7 +75,7 @@ BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 
 # Recovery
-TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
+TARGET_RECOVERY_PIXEL_FORMAT := "BRGA_8888"
 TARGET_RECOVERY_FSTAB := device/samsung/lt02wifi/rootdir/fstab.pxa988
 RECOVERY_FSTAB_VERSION := 2
 #TARGET_RECOVERY_INITRC := device/samsung/lt02wifi/recovery/root/init.recovery.rc
@@ -164,7 +164,7 @@ HDMI_SUPPORT_3D := true
 
 #Enable marvell interface in SurfaceFlinger
 MRVL_INTERFACE_ANIMATION := true
-#ENABLE_HWC_GC_PATH := true
+ENABLE_HWC_GC_PATH := true
 
 #Launch DMS in SurfaceFlinger process
 MRVL_LAUNCH_DMS_IN_SURFACEFLINGER := true
