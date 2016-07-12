@@ -11,8 +11,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
+
+#Target don't have Bootloader
+TARGET_NO_BOOTLOADER := true
 
 # Target info
 USE_CAMERA_STUB := true
